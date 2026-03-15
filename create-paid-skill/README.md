@@ -5,7 +5,7 @@ AI agent skill for creating monetized APIs and skills using the [SKILL.md Specif
 ## Install
 
 ```bash
-npx skills add 402-md/agent-skills@create-paid-skill
+npx skills add 402md/agent-skills@create-paid-skill
 ```
 
 ## What it does
@@ -36,7 +36,7 @@ When installed, your AI agent learns how to:
 
 ## Links
 
-- [SKILL.md Specification v2.0](https://github.com/402-md/skillmd/blob/main/SPEC.md)
-- [Reference Implementation (`@402md/skillmd`)](https://github.com/402-md/skillmd)
+- [SKILL.md Specification v2.0](https://github.com/402md/skillmd/blob/main/SPEC.md)
+- [Reference Implementation (`@402md/skillmd`)](https://github.com/402md/skillmd)
 - [x402 Protocol](https://www.x402.org/)
 - [skills.sh](https://skills.sh)
