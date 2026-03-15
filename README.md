@@ -11,13 +11,13 @@ A collection of extensible skills for AI coding agents, following the [Agent Ski
 ## Installation
 
 ```bash
-npx skills add 402-md/agent-skills
+npx skills add 402md/agent-skills
 ```
 
 Or install a specific skill:
 
 ```bash
-npx skills add 402-md/agent-skills@create-paid-skill
+npx skills add 402md/agent-skills@create-paid-skill
 ```
 
 Once installed, skills become available automatically when your agent encounters relevant tasks.
