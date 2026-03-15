@@ -6,7 +6,7 @@ A collection of extensible skills for AI coding agents, following the [Agent Ski
 
 | Skill | Description |
 |-------|-------------|
-| [create-paid-skill](./create-paid-skill) | Guides AI agents step-by-step through creating a SKILL.md file following the [SKILL.md Specification v2.0](https://github.com/402-md/skillmd/blob/main/SPEC.md), including x402 payment configuration, endpoint definitions, and publishing. |
+| [create-paid-skill](./skills/create-paid-skill) | Guides AI agents step-by-step through creating a SKILL.md file following the [SKILL.md Specification v2.0](https://github.com/402-md/skillmd/blob/main/SPEC.md), including x402 payment configuration, endpoint definitions, and publishing. |
 
 ## Installation
 
