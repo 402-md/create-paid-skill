@@ -1,42 +1,27 @@
-# Create Paid Skill
+# Agent Skills
 
-AI agent skill for creating monetized APIs and skills using the [SKILL.md Specification v2.0](https://github.com/402-md/skillmd/blob/main/SPEC.md) and the [x402 payment protocol](https://www.x402.org/).
+A collection of extensible skills for AI coding agents, following the [Agent Skills](https://skills.sh) format.
 
-## Install
+## Skills
+
+| Skill | Description |
+|-------|-------------|
+| [create-paid-skill](./create-paid-skill) | Guides AI agents step-by-step through creating a SKILL.md file following the [SKILL.md Specification v2.0](https://github.com/402-md/skillmd/blob/main/SPEC.md), including x402 payment configuration, endpoint definitions, and publishing. |
+
+## Installation
 
 ```bash
-npx skills add 402-md/create-paid-skill
+npx skills add 402-md/agent-skills
 ```
 
-## What it does
+Or install a specific skill:
 
-When installed, your AI agent learns how to:
+```bash
+npx skills add 402-md/agent-skills@create-paid-skill
+```
 
-- Create a complete `SKILL.md` file from scratch
-- Configure x402 payments (Stellar, Base) with per-request pricing in USDC
-- Define API endpoints with JSON Schema input/output
-- Write agent-ready documentation that teaches other agents to use the API
-- Validate against the full SKILL.md spec
-- Convert to MCP tools, A2A Agent Cards, and OpenAPI
-- Set up the right directory structure for publishing
+Once installed, skills become available automatically when your agent encounters relevant tasks.
 
-## Skill profiles supported
+## License
 
-| Profile | Description |
-|---------|-------------|
-| **Paid API** | REST endpoints with per-call pricing via x402 |
-| **Agent Skill** | Pure instructions for AI agents (Claude Code compatible) |
-| **Hybrid** | Paid API + agent workflow instructions |
-
-## Example triggers
-
-> "create a paid skill", "monetize my API", "create a SKILL.md",
-> "set up x402 payments", "make a paid API for agents",
-> "convert OpenAPI to SKILL.md", "build a skill for skills.sh"
-
-## Links
-
-- [SKILL.md Specification v2.0](https://github.com/402-md/skillmd/blob/main/SPEC.md)
-- [Reference Implementation (`@402md/skillmd`)](https://github.com/402-md/skillmd)
-- [x402 Protocol](https://www.x402.org/)
-- [skills.sh](https://skills.sh)
+MIT
