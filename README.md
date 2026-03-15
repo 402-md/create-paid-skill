@@ -1,4 +1,4 @@
-# create-paid-skill
+# Create Paid Skill
 
 AI agent skill for creating monetized APIs and skills using the [SKILL.md Specification v2.0](https://github.com/402-md/skillmd/blob/main/SPEC.md) and the [x402 payment protocol](https://www.x402.org/).
 
